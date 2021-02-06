@@ -1,0 +1,17 @@
+node_modules
+lib
+cypress/integration/examples
+cypress/videos/examples
+cypress/screenshots
+tsconfig.tsbuildinfo
+.idea/workspace.xml
+.idea/dictionaries
+.idea/shelf
+.idea/codeStyles
+.idea
+env
+output
+env.sample
+cypress.env.json
+cypressConfig/uat.json
+cypressConfig/dev.json
