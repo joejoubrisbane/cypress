@@ -1,4 +1,6 @@
 {
   "baseUrl": "https://www.saucedemo.com/index.html",
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.feature",
+  "video": false,
+  "ignoreTestFiles": "**/**/*.js"
 }
