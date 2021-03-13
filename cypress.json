@@ -1,6 +1,9 @@
 {
-  "baseUrl": "https://www.saucedemo.com/index.html",
+  "baseUrl": "https://www.saucedemo.com",
+  "pageLoadTimeout": 10000,
+  "defaultCommandTimeout": 5000,
   "testFiles": "**/*.feature",
   "video": false,
-  "ignoreTestFiles": "**/**/*.js"
+  "ignoreTestFiles": "**/**/*.js",
+  "waitForAnimations": true
 }
