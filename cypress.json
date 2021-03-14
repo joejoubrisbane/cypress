@@ -3,7 +3,8 @@
   "pageLoadTimeout": 10000,
   "defaultCommandTimeout": 5000,
   "testFiles": "**/*.feature",
-  "video": false,
+  "video": true,
   "ignoreTestFiles": "**/**/*.js",
-  "waitForAnimations": true
+  "waitForAnimations": true,
+  "projectId": "4ia5x5"
 }

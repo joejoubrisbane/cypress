@@ -8,7 +8,9 @@
     "cy:run": "cypress run",
     "cy:update-snapshots": "cypress run --env updateSnapshots=true",
     "cy:percy": "percy exec -- cypress run",
-    "cy:percy-open": "percy exec -- cypress open"
+    "cy:percy-open": "percy exec -- cypress open",
+    "cy:run-dashboard": "percy exec -- cypress run --record --key 5371cd56-1d8b-4ec6-ab7c-766bcac3053f",
+    "start-jenkins-server": "java -jar jenkins.war -httpPort=8080 --enable-future-java"
   },
   "repository": {
     "type": "git",
